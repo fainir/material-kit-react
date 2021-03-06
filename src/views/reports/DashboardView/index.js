@@ -36,7 +36,7 @@ const Dashboard = () => {
           container
           spacing={3}
         >
-          <Grid
+          {/* <Grid
             item
             lg={3}
             sm={6}
@@ -98,12 +98,12 @@ const Dashboard = () => {
             xs={12}
           >
             <LatestProducts />
-          </Grid>
+          </Grid> */}
           <Grid
             item
             lg={8}
             md={12}
-            xl={9}
+            xl={6}
             xs={12}
           >
             <LatestOrders />
